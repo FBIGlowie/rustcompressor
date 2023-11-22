@@ -1,5 +1,11 @@
 use colored::Colorize;
-use std::{env, fs::File, path::Path, process::exit};
+use std::{
+    env,
+    fs::{self, File},
+    io::prelude::*,
+    path::Path,
+    process::exit,
+};
 
 use flate2::write::GzEncoder;
 use flate2::Compression;
