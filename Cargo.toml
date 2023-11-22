@@ -8,4 +8,4 @@ edition = "2021"
 [dependencies]
 
 colored = "2.0.4"
-deflate = "1.0.0"
+flate2 = "1.0.28"
