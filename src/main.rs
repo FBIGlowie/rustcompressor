@@ -1,7 +1,7 @@
 use colored::Colorize;
 use std::{env, fs::File, path::Path, process::exit, io::{Read,Write}};
 
-
+// oops i forgot to add comments, now I dont even understant this code despite writing it lel
 use flate2::write::GzEncoder;
 use flate2::Compression;
 
